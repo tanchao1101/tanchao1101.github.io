@@ -49,6 +49,18 @@ module.exports = {
 						var order2 = order.indexOf(chunk2.names[0]);
 						return order1 - order2;  
 				}
+		}),
+		new HtmlWebpackPlugin({
+			template:resolve('./template/jump.html'),
+			title:'jump',
+			filename:'jump.html',
+			chunks:[],
+			chunksSortMode: function (chunk1, chunk2) {
+						var order = [];
+						var order1 = order.indexOf(chunk1.names[0]);
+						var order2 = order.indexOf(chunk2.names[0]);
+						return order1 - order2;  
+				}
 		})
 	]
 }
