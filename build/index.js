@@ -15756,6 +15756,7 @@ let router=new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({//�
 	{path:'/page4',component:__WEBPACK_IMPORTED_MODULE_8__components_page4_page4_vue__["a" /* default */]},
 	]
 });
+router.push({ path: '/page1' });
 var vm =new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 	el:"#index",//挂载在页面的具体元素下
 	router:router,

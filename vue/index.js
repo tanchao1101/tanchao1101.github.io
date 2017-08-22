@@ -31,6 +31,7 @@ let router=new VueRouter({//路由设置
 	{path:'/page4',component:page4},
 	]
 });
+router.push({ path: '/page1' });
 var vm =new Vue({
 	el:"#index",//挂载在页面的具体元素下
 	router:router,
