@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -101,7 +101,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "body,\ndiv,\nh1,\nh2,\nh3,\nh4,\nh5,\na,\nimg,\nb,\ninput,\nstrong,\nspan,\nvar,\nem,\nol,\nul,\ndt,\ndd,\ndl,\nli,\np,\ntable,\ntr,\nth,\ntd,\nbutton,\nheader,\nfooter,\nnav,\nselect,\noption {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n}\n.swiper-container,\n.swiper-slide {\n  width: 100%;\n  height: 100vh;\n  font-size: 1rem;\n}\n.swiper-slide {\n  background: #fff;\n}\n.page1 {\n  background: url(\"http://localhost:8080/static/images/bg1.png\") no-repeat;\n  background-size: cover;\n}\n#bodymovin {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n#bodymovin svg {\n  width: 100%;\n  height: 100%;\n}\n#bodymovin .test {\n  position: absolute;\n  top: 6rem;\n  left: 3rem;\n}\n.page {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n#loginName {\n  width: 80%;\n  height: 1rem;\n  display: block;\n}\n#password {\n  width: 80%;\n  height: 1rem;\n  display: block;\n}\n.testbox {\n  width: 100%;\n  height: 100%;\n  animation: myfirst 5s;\n  -moz-animation: myfirst 5s;\n  /* Firefox */\n  -webkit-animation: myfirst 5s;\n  /* Safari and Chrome */\n  -o-animation: myfirst 5s;\n  /* Opera */\n}\n@keyframes myfirst {\n  from {\n    transform: scale(1, 1);\n  }\n  to {\n    transform: scale(1.2, 1.2);\n  }\n}\n", ""]);
+exports.push([module.i, "body,\ndiv,\nh1,\nh2,\nh3,\nh4,\nh5,\na,\nimg,\nb,\ninput,\nstrong,\nspan,\nvar,\nem,\nol,\nul,\ndt,\ndd,\ndl,\nli,\np,\ntable,\ntr,\nth,\ntd,\nbutton,\nheader,\nfooter,\nnav,\nselect,\noption {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n}\n.swiper-container,\n.swiper-slide {\n  width: 100%;\n  height: 100vh;\n  font-size: 1rem;\n}\n.swiper-slide {\n  background: #fff;\n}\n.page1 {\n  background: url(" + __webpack_require__(4) + ") no-repeat;\n  background-size: cover;\n}\n#bodymovin {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n#bodymovin svg {\n  width: 100%;\n  height: 100%;\n}\n#bodymovin .test {\n  position: absolute;\n  top: 6rem;\n  left: 3rem;\n}\n.page {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n#loginName {\n  width: 80%;\n  height: 1rem;\n  display: block;\n}\n#password {\n  width: 80%;\n  height: 1rem;\n  display: block;\n}\n.testbox {\n  width: 100%;\n  height: 100%;\n  animation: myfirst 5s;\n  -moz-animation: myfirst 5s;\n  /* Firefox */\n  -webkit-animation: myfirst 5s;\n  /* Safari and Chrome */\n  -o-animation: myfirst 5s;\n  /* Opera */\n}\n@keyframes myfirst {\n  from {\n    transform: scale(1, 1);\n  }\n  to {\n    transform: scale(1.2, 1.2);\n  }\n}\n", ""]);
 
 // exports
 
@@ -416,6 +416,12 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c3df56a4a24a0a954cf782099c90d8d1.png";
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(0);
